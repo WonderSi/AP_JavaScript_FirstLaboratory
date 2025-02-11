@@ -22,6 +22,7 @@ if (0 <= number <= 10) {
             console.log(`На ветке сидят ${number} вороны`);
             break;
         default:
+            console.log("На ветке сидят больше 10 ворон")
             break;
     }
 }
