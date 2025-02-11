@@ -10,4 +10,4 @@ function addressVerification(string) {
     return flag
 }
 
-console.log(addressVerification("aboba@bob"))
+console.log(addressVerification("aboba@bob")) // или использоваться .includes()
