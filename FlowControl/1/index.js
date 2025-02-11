@@ -1,11 +1,11 @@
-let age = 18;
+let age = 31;
 
 if (age > 0) {
-    if (age > 30) {
-        console.log("Для всех возрастов");
-    } else if (18 <= age <= 30) {
+    if (age >= 18 && age <= 30) {
         console.log("Для молодежи");
-    } else {
+    } else if (age <= 17) {
         console.log("Для детей");
+    } else {
+        console.log("Для всех возрастов");
     }
 }
